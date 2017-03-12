@@ -19,19 +19,6 @@ determine horse1 only made it 50% of the way by the time the second race's winne
 passed the finish line.  This means horse2, horse3, horse4, and horse5 now are a
 further 50% relative to the newLeader's distance.
 
-First Race:
-|===============================horses2-5|==================================horse1|
-|==============================horses2-5|=================================horse1|
-|=============================horses2-5|================================horse1|
-|============================horses2-5|===============================horse1|
-|===========================horses2-5|===========================horse1|
-|=========================horses2-5|========================horse1|
-|=======================horses2-5|=====================horse1|
-|====================horses2-5|===================horse1|
-|================horses2-5|===================horse1|
-Second Race: =horses2-5|================horse1|
-|===========horses2-5|============horses1|===============================newLeader|
-
 ...and so on, shifting their relative distance ran to the current-fastest horse.  
 The minimum amount of races to complete this problem is 6.  Now I'm going to code
 it in Python.
